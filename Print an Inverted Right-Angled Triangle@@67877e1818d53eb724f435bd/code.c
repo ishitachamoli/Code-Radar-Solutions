@@ -1,11 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int n; 
+    int n;
     scanf("%d", &n);
-    if(n>=0){
-        for(int i=1; i<=n; i++){
-            printf("**%d ", i);
+
+    if (n >= 0) {
+        for (int i = n; i > 0; i--) {  
+            for (int j = 0; j < i; j++) {  
+                printf("*");
+            }
+            printf("\n"); 
         }
     }
     return 0;
