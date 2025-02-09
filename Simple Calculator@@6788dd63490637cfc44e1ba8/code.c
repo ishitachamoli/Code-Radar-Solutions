@@ -13,7 +13,12 @@ int main(void){
         printf("%.lf", a*b);
     }
     else if(ch=='/'){
-        printf("%.lf", a/b);
+        if(b==0){
+            printf("error");
+        }
+        else{
+            printf("%.lf", a/b);
+        }
     }
     else{
         printf("Error");
