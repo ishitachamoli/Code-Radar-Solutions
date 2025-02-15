@@ -5,10 +5,7 @@ int main(void){
     int n;
     char ch;
 
-    if(scanf("%d%c", &n, &ch) != 2 || (ch != '\n' && ch != ' ') || n<0){
-        printf("Invalid input");
-        return 1;
-    }
+    scanf("%d%c", &n, &ch);
 
     if(n==1){
         printf("Neither prime nor composite");
