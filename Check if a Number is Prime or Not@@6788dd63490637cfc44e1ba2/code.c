@@ -8,7 +8,7 @@ int main(void){
     }
 
     int a = 0;
-    for(int i=1; i<n; i++){
+    for(int i=2; i<n; i++){
         if(n%i==0){
             a = a + 1;
             break;
@@ -19,6 +19,6 @@ int main(void){
     printf("Prime");
     else
     printf("Not Prime");
-    
+
     return 0;
 }
