@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 
 int main(void){
     int n;
@@ -13,7 +12,7 @@ int main(void){
 
     int a = 0;
 
-    for(int i=2; i<=sqrt(n); i++){
+    for(int i=2; i<n-1; i++){
         if(n%i==0){
             a = 1;
             break;
