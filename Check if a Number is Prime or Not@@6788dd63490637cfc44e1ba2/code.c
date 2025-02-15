@@ -4,7 +4,7 @@ int main(void){
     scanf("%d", &n);
 
     if(n==1){
-        printf("Prime");
+        printf("Neither prime nor composite.");
     }
 
     int a = 0;
