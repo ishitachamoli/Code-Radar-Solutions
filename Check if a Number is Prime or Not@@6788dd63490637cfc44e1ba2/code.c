@@ -1,10 +1,8 @@
 #include <stdio.h>
-
 int main(void){
     int n;
-    char ch;
 
-    scanf("%d%c", &n, &ch);
+    scanf("%d", &n);
 
     if(n==1){
         printf("Neither prime nor composite");
