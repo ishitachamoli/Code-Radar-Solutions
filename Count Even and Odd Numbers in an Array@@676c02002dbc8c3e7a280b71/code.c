@@ -15,5 +15,6 @@ int main(void){
         else odd_count += 1;
     }
 
+    printf("%d %d", even_count, odd_count)
     return 0;
 }
