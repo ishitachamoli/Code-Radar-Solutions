@@ -18,7 +18,7 @@ int main(void){
             }
         }
         else{
-            printf("-1")
+            printf("-1");
         }
     }
 
