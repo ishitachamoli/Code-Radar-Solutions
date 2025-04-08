@@ -14,7 +14,7 @@ int main(void){
 
     for(int i=1; i<size; i++){
         if(arr[i]>max) max = arr[i];
-        else min = arr[i];
+        if(arr[i]<min) min = arr[i];
     }
 
     printf("%d %d", min, max);
