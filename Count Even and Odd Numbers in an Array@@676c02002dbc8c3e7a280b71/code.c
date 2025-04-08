@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main(void){
     int size;
+    scanf("%d", &size);
+    
     int arr[size];
 
     for(int i=0; i<size; i++){
@@ -16,6 +18,6 @@ int main(void){
     }
 
     printf("%d %d", even_count, odd_count);
-    
+
     return 0;
 }
